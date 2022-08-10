@@ -39,7 +39,6 @@
 .delete__item__button {
     color: red;
     background: #f4f4f4;
-    border: 1px solid #171717;
     cursor: pointer;
     transition: all .3s ease-out;
 }
