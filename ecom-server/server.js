@@ -7,6 +7,8 @@ const productRoutes = require("./routes/productRoute");
 const privateRoute = require("./routes/privateRoute");
 
 connectDB();
+app.use(cors());
+app.options("*", cors());
 
 app.use(express.json());
 app.use("/api/products", productRoutes);
