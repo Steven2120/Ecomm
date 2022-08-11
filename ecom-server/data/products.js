@@ -15,7 +15,7 @@ const products = [
     description:
       "Measurements with a range up to 75.0ppm. Less complex laboratory grade accuracy - Requires only 1 reagent Simple, intuitive digital operation. Compact and precise whether at home, at work, or on-the-go",
     price: 49.95,
-    countInStock: 15,
+    countInStock: 16,
   },
   {
     name: "Westinghouse Outdoor Power Equipment WGen9500DF Dual Fuel Portable Generator-9500 Rated 12500 Peak Watts Gas or Propane Powered-Electric",
