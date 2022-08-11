@@ -5,6 +5,7 @@ const connectDB = require("./config/db");
 const errorHandler = require("./middleware/errorHandler");
 const productRoutes = require("./routes/productRoute");
 const privateRoute = require("./routes/privateRoute");
+const cors = require("cors");
 
 connectDB();
 app.use(cors());
